@@ -1,0 +1,14 @@
+Extract the following fields from the support email:
+1. Customer Name
+2. Description of the Issue
+3. Urgency (Low, Medium, High)
+
+Email:
+{{email}}
+
+Respond only with JSON in this format:
+{
+  "name": "",
+  "issue": "",
+  "urgency": ""
+}
